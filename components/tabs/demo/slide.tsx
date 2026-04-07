@@ -19,7 +19,7 @@ const App: React.FC = () => {
         defaultActiveKey="1"
         tabPlacement={mode}
         style={{ height: 220 }}
-        items={Array.from({ length: 30 }, (_, i) => {
+        items={Array.from({ length: 8 }, (_, i) => {
           const id = String(i);
           return {
             label: `Tab-${id}`,
